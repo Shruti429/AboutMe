@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;1,400&family=Dancing+Script:wght@700&family=Heebo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>   
+    <title>FeedBack</title>
+</head>
+<body>
+    <header>   
+        <nav class="main-nav">
+            <input type="checkbox" id="check" />
+            <label for="check" class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <a href="FeedBack.html" class="logo">FeedBack</a>
+            <ul class="navlinks">
+              
+              <li><a href="MyBook.html">MyBook</a></li>
+              <li><a href="index.html">About Me</a></li>
+            </ul>
+          </nav>
+    </header>
+  <div class="feedback">
+       <div class="feed_content">
+            <table>
+               <tr >
+                   <td><label class="label">Mr/Mrs</label></td>
+
+                    <td><select class="input" id="res">
+                          <option value="">--SELECT OPTION--</option>
+                          <option value="Mr.">Mr.</option>
+                          <option value="Mrs.">Mrs.</option>
+                        </select>
+                        <label for="">Male</label>
+                        <input  type="checkbox" name="Male" id="">
+                        <label for="">Female</label>
+                        <input   type="checkbox" name="Female" id="">
+                     </td>
+                   
+                 
+                 
+               </tr> 
+               <tr>
+               <td> <label class="label" for="name" >First Name</label></td>
+               <td><input class="input" type="text" id="first_name" placeholder="First Name.." maxlength="30" minlength="2" required ></td></tr>
+               <tr>
+                   <td><label class="label" for="lname" >Last Name</label></td>
+                   <td><input class="input" type="text" id="last_name" placeholder="Last Name.." maxlength="30" minlength="2" required ></td></tr>
+               <tr>
+                   <td><label class="label" for="comment" >Comment</label></td>
+                   <td><textarea id="comment" cols="25" rows="5"  maxlength="140" placeholder="Comment..."></textarea></td></tr>
+                
+               <tr>
+                   <td><input class="btn" type="reset" value="Reset"/></td>
+                   <td><input class="button" type="submit" value="Submit"  onclick="sub_data()"/></td>
+                </tr>
+                   
+                  
+          </table>
+
+        </div>
+                         
+            <aside>
+                <h2>Top Comments</h2>
+                <table id="add_comment">
+                   <thead>
+                      <th class="th th-sr">Sr.</th>
+                      <th class="th">Name</th>
+                      <th class="th">Message</th>  
+                   </thead>
+                   <tbody>
+                     <tr><td></td><td></td><td></td></tr>
+                     <tr></tr>
+                    </tbody>
+                </table>
+            </aside>
+
+    </div>
+<script src="feedback.js"></script>
+    </body>
+
+</html>

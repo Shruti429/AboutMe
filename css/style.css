@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #f1faf9;
+    font-family: 'Heebo', sans-serif
+}
+header {
+    background-color: #009DAE;
+  }
+ 
+/* navbar CSS   */
+.main-nav {
+    height: 5rem;
+  }
+  
+.logo {
+    color:#C2FFF9; 
+    font-size: 4rem;
+    margin-left: 2rem;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+  }
+  
+  .navlinks {
+    list-style:none;
+    float: right;
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navlinks li {
+    display: inline-block;
+    margin: 0px 15px;
+    margin-right: 70px;
+  }
+  
+  .navlinks li a {
+    color: #C2FFF9;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: 'Heebo', sans-serif;
+    transition: all 0.3s linear 0s;
+    text-transform: uppercase;
+  }
+  
+  .navlinks li a:hover {
+    color: #7ebcb9;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #7ebcb9;
+  }
+  
+  li a.contact {
+    background-color: #00adb5;
+    padding: 9px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    border-bottom: none;
+  }
+  
+  li a.contact:hover {
+    background-color: #047e85;
+    color: white;
+    border-bottom: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  .menu-btn {
+    font-size: 25px;
+    color: #C2FFF9; 
+    float: right;
+    line-height: 90px;
+    margin-right: 40px;
+    display: none;
+    cursor: pointer;
+  }
+
+
+/* 
+
+  
+  dvvvvvvvvvvvvvvvvvvddddddddddddddddddddddddddddddddddddddddddddddddd */
+  .left-section{
+    margin-left:5rem;
+    margin-top: 3rem;
+  }
+  footer{
+    background-color: #009DAE;
+    width: auto;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    
+
+  }
+.thanku{
+  position: absolute;
+    font-size: 2.5rem;
+    color: #C2FFF9; 
+    font-family: 'Dancing Script', cursive;
+    margin: 2rem;
+    margin-left: 10rem;
+  }
+  .contact{
+    float: right;
+    margin: 1rem;
+    margin-right: 4rem;
+    line-height: 2rem;
+    color: #C2FFF9; 
+    font-size: 1rem;
+    font-family: 'Dancing Script', cursive;
+
+  }
+ 
+  h2{
+    color:#009DAE ;
+    font-family: 'Bitter', serif;
+    font-size: 2.3rem;
+    line-height: 5rem;
+  }
+ .anchor{
+   text-decoration: none;
+   color:#009DAE;
+ }
+
+
+#Expectations{
+  margin-bottom: 2rem;
+}
+#Expectations ul li {
+  line-height: 2rem;
+}
+
+/* table css */
+  #customers {
+  
+    border-collapse: collapse;
+    width: 80%;
+    margin-right: 5rem;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #009DAE;
+    color: white;
+  }
+
+
+ 
+
+  /* MyBook Page */
+.bookImage{
+    width: 40%;
+}
+.left{
+  float: left;
+  width: 40%;
+}
+.right{
+  float: right;
+  width: 40%;
+}
+.DSA{
+  height: 30rem;
+}
+.C{
+  height: 30rem;
+}
+.CA{
+  height: 30rem;
+}
+.Dsa-text{
+  margin: 6.5rem;
+}
+.Dsa-img{
+ margin-top: 2rem;
+ margin-right: 0;
+}
+.c-image{
+  margin: 3.75rem;
+  margin-left: 7rem;
+  margin-right: 0;
+}
+.c-text{
+  margin: 2rem;
+  margin-top: 6rem;
+  margin-right: 7rem;
+}
+.Ca-text{
+  margin: 6.5rem;
+}
+.Ca-img{
+  margin-top: 2rem;
+ margin-right: 0;
+}
+.heading{
+  font-family: 'Bitter', serif;
+  font-size: 2.3rem;
+  line-height: 4rem;
+}
+.para{
+  line-height: 2.5rem;
+}
+/* Feedback page CSS */
+aside{
+  width:30%;
+  float: right;
+  position: relative;
+  bottom: 28rem;
+}
+
+aside h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+.feed_content{
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+.label{
+  font-family: 'Bitter', serif;
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-weight: 800;
+  color: #009DAE;
+}
+.button{
+  width: 35%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: #009DAE;
+  border:solid #009DAE;
+ box-shadow: none;
+ color: white;
+ text-decoration: none;
+ position: relative;
+ left: 30rem;
+ top: 4rem;
+ font-size: 1.3rem;
+}
+.btn{
+  width: 55%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: #009DAE;
+  border:solid #009DAE;
+ box-shadow: none;
+ color: white;
+ text-decoration: none;
+ font-size: 1.3rem;
+ position: relative;
+ left: 30rem;
+ top: 4rem;
+}
+button:hover{
+  color: #C2FFF9;
+  
+}
+.input{
+  width: 60%;
+  height: 2.4rem;
+  border:1px solid #009DAE;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+ 
+}
+textarea{
+  border-color: #009DAE;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  
+}
+.add_comment{
+ border: solid 5px black;
+}
+
+.th{
+  width: 10rem;
+  height: 2rem;
+  color:#009DAE ;
+
+  font-size: 1rem;
+}
+.th-sr{
+  width:2.5rem;
+  height: 2rem;
+}
+ 
+@media (max-width: 800px) {
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height:max-content;
+    text-align: center;
+    transition: all 0.5s;
+    right: -100%;
+    background: #01606b;
+  
+  }
+
+  .navlinks li {
+    display: block;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  .navlinks li a:hover {
+    border-bottom: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  #check:checked ~ .navlinks {
+    right: 0;
+  }
+  .left{
+    width: auto;
+    text-align: center;
+  }
+  .right{
+    width: auto;
+    text-align: center;
+  }
+  .c-image{
+    margin-right: 1rem;
+  }
+  .heading{
+    
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .para{
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .menu-btn {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+
+  
+  .left{
+    width: auto;
+    text-align: center;
+  }
+  .right{
+    width: auto;
+    text-align: center;
+  }
+  .c-image{
+    margin-right: 1rem;
+  }
+  .heading{
+    
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .para{
+    line-height: 2rem;
+  }
+}
